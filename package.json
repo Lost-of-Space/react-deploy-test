@@ -1,6 +1,6 @@
 {
   "name": "react-app-test",
-  "homepage": "https://Lost-of-Space.github.io/react-deploy-test",
+  "homepage": "https://Lost-of-Space.github.io/react-deploy-test/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "deploy" : "gh-pages -d dist --repo git@github.com:Lost-of-Space/react-deploy-test.git"
   },
   "dependencies": {
     "gh-pages": "^6.2.0",
